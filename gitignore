@@ -1,0 +1,38 @@
+# Dataset (download from sources listed in README.md)
+dataset/
+data/
+*.zip
+
+# Trained models / weights
+*.h5
+*.keras
+*.pt
+*.pth
+models/
+
+# Generated logs, results, plots, Grad-CAM outputs
+training_logs/
+final_results/
+gradcam_outputs/
+plots/
+web_uploads/
+mobile_uploads/
+*.csv
+*.png
+*.npy
+
+# Planning spreadsheets referenced in the notebook (not part of the code)
+Dataset_Count.xlsx
+500-Image_Balanced_Dataset_Generation_Plan.xlsx
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

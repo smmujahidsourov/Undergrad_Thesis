@@ -1,9 +1,11 @@
-# Undergrad_Thesis
-Unified Multi-Class Skin Disease Classification: An Explainable and Calibrated Two-Stage Stacking Ensemble with Per-Class Specialist Model Cross-Check Using CNN, ViT, and YOLO.
+### Unified Multi-Class Skin Disease Classification: An Explainable and Calibrated Two-Stage Stacking Ensemble with Per-Class Specialist Model Cross-Check Using CNN, ViT, and YOLO
 
-# Unified Multi-Class Skin Disease Classification
+**American International University-Bangladesh (AIUB)**
+Faculty of Science and Technology (FST)
 
-An explainable and calibrated two-stage stacking ensemble of CNN, ViT, and YOLO models for 10-class skin disease classification, with Grad-CAM-based explainability and attention-alignment validation against expert lesion masks.
+A Thesis submitted for the degree of Bachelor of Science (BSc) in Computer Science and Engineering (CSE) at American International University-Bangladesh (AIUB)
+
+Spring 2025–26 Semester
 
 ## Authors
 
@@ -136,7 +138,7 @@ The combined dataset isn't committed to this repository because: (1) it's severa
 | 11-A | Attention-alignment metric using Otsu auto-segmentation as a comparative proxy |
 | 11-A1 | Fetch real expert lesion masks (HAM10000 segmentation set) |
 | 11-A2 | Attention alignment against real expert masks (absolute IoU / localization ratio) |
-| 11-B | Publishability metrics: Expected Calibration Error, confusion matrices, classification reports |
+| 11-B | Metrics: Expected Calibration Error, confusion matrices, classification reports |
 | 11 | Sanity check on one fixed image per class |
 | 11 (ext.) | Evaluation on an external, user-uploaded dataset (no retraining) |
 | 12 | Final results summary |

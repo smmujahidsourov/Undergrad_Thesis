@@ -1,3 +1,18 @@
+# Secrets / credentials
+# This notebook reads Kaggle and ngrok credentials from Colab Secrets at
+# runtime (see Blocks 11-A1 and 14) — nothing is hardcoded in the code.
+# These rules are a safety net in case any credential file ends up local.
+.env
+.env.*
+*.pem
+*.key
+kaggle.json
+.kaggle/
+colab_secrets.json
+secrets.json
+*_secrets.py
+.ngrok2/
+
 # Dataset (download from sources listed in README.md)
 dataset/
 data/
@@ -21,9 +36,6 @@ mobile_uploads/
 *.png
 *.npy
 
-# Planning spreadsheets referenced in the notebook (not part of the code)
-Dataset_Count.xlsx
-500-Image_Balanced_Dataset_Generation_Plan.xlsx
 
 # Jupyter / Python
 .ipynb_checkpoints/

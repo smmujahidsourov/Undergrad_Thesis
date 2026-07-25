@@ -5,6 +5,15 @@ Unified Multi-Class Skin Disease Classification: An Explainable and Calibrated T
 
 An explainable and calibrated two-stage stacking ensemble of CNN, ViT, and YOLO models for 10-class skin disease classification, with Grad-CAM-based explainability and attention-alignment validation against expert lesion masks.
 
+## Authors
+
+| Name | ID |
+|---|---|
+| S. M. Mujahid Sourov | 22-49679-3 |
+| Soumen Das | 22-49531-3 |
+| Abdullah Al Tasnim Mahim | 22-49699-3 |
+| Fahmida Islam Saiba | 22-49493-3 |
+
 ## Overview
 
 This notebook trains and evaluates 12 image classification architectures (10 CNNs, a Vision Transformer, and a YOLO classification variant) on a custom 10-class skin disease dataset, combines the strongest performers into a calibrated stacking ensemble, and validates model behavior using Grad-CAM / occlusion sensitivity, attention-alignment metrics against ground-truth lesion masks, and standard publishability metrics (ECE, confusion matrices, classification reports).
